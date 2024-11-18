@@ -374,7 +374,7 @@ gitgraph
 #When we switch it also updates the staging and working directory for the checked out branch
 
 #To create and checkout in one step:
-git checkout -c branch1
+git switch -c branch1
 
 #To push a branch to a remote.
 #The -u sets up tracking between local and remote branch. Allows argumentless git pull in future. Will do this later
